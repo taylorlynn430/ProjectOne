@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+    <title>Enfield Pride</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html"><img class="img-responsive2"
+                src="Img/logo.png" width="30" height="30">Enfield Pride</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="getinvolved.html">Get Involved</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="about.html" data-toggle="dropdown" aria-expanded="false">About</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                    <a class="dropdown-item" href="blog.html">Blog</a>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        </nav>
+
+<!-- Header -->
+
+    <div class="jumbotron jumbotron-special jumbotron-fluid" id="jumbotronSpecial">
+        <h1 class="display-3">Events</h1>
+    </div>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class= col-12>
+                <h2 class="text-center">Join Us</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae aliquet nec ullamcorper sit amet risus nullam eget felis. Sed tempus urna et pharetra. Massa enim nec dui nunc mattis enim. Neque aliquam vestibulum morbi blandit cursus risus. Consectetur adipiscing elit duis tristique sollicitudin nibh. Luctus accumsan tortor posuere ac.</p>
+                <p class="text-center"></p>
+            </div>
+        </div>
+    </div>
+
+<!-- new event cards w/ tabs -->
+    <div class="container">
+        <div class="row row-content">
+        <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow tab-card">
+                <img src="Img/events1.jpg" class="card-img-top" alt="...">
+                
+                <div class="card-header tab-card-header">
+                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                      <a class="nav-link" id="event-tab" data-toggle="tab" href="#event" role="tab" aria-controls="event" aria-selected="true">Event</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="false">Details</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="cost-tab" data-toggle="tab" href="#cost" role="tab" aria-controls="cost" aria-selected="false">Cost</a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active p-3" id="event" role="tabpanel" aria-labelledby="event-tab">
+                  <h5 class="card-title">Event</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>              
+                </div>
+                <div class="tab-pane fade p-3" id="details" role="tabpanel" aria-labelledby="details-tab">
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>              
+                </div>
+                <div class="tab-pane fade p-3" id="cost" role="tabpanel" aria-labelledby="cost-tab">
+                  <h5 class="card-title">Cost</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>              
+                </div>
+                </div>
+            
+            </div>
+        </div>
+        
+        <!-- new event cards #2 w/ tabs -->
+
+         
+              <div class="col-xl-4 col-md-6 mb-4">
+                <div class="card border-0 shadow tab-card">
+                    <img src="Img/eventpage2.jpg" class="card-img-top" alt="...">
+                    
+                    <div class="card-header tab-card-header">
+                    <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                      <li class="nav-item">
+                          <a class="nav-link" id="eventtwo-tab" data-toggle="tab" href="#eventtwo" role="tab" aria-controls="eventtwo" aria-selected="true">Event</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="detailstwo-tab" data-toggle="tab" href="#detailstwo" role="tab" aria-controls="detailstwo" aria-selected="false">Details</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="costtwo-tab" data-toggle="tab" href="#costtwo" role="tab" aria-controls="costtwo" aria-selected="false">Cost</a>
+                      </li>
+                    </ul>
+                  </div>
+          
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active p-3" id="eventtwo" role="tabpanel" aria-labelledby="eventtwo-tab">
+                      <h5 class="card-title">Event</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>              
+                    </div>
+                    <div class="tab-pane fade p-3" id="detailstwo" role="tabpanel" aria-labelledby="detailstwo-tab">
+                      <h5 class="card-title">Details</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>              
+                    </div>
+                    <div class="tab-pane fade p-3" id="costtwo" role="tabpanel" aria-labelledby="costtwo-tab">
+                      <h5 class="card-title">Cost</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>              
+                    </div>
+          
+                  </div>
+                </div>
+              </div>
+       
+         <!-- new event cards #3 w/ tabs -->
+
+         
+         <div class="col-xl-4 col-md-6 mb-4">
+            <div class="card border-0 shadow tab-card">
+                <img src="Img/eventpage3.jpg" class="card-img-top" alt="...">
+                
+                <div class="card-header tab-card-header">
+                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                      <a class="nav-link" id="eventthree-tab" data-toggle="tab" href="#eventthree" role="tab" aria-controls="eventthree" aria-selected="true">Event</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="detailsthree-tab" data-toggle="tab" href="#detailsthree" role="tab" aria-controls="detailsthree" aria-selected="false">Details</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="costthree-tab" data-toggle="tab" href="#costthree" role="tab" aria-controls="costthree" aria-selected="false">Cost</a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active p-3" id="eventthree" role="tabpanel" aria-labelledby="eventthree-tab">
+                  <h5 class="card-title">Event</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>              
+                </div>
+                <div class="tab-pane fade p-3" id="detailsthree" role="tabpanel" aria-labelledby="detailsthree-tab">
+                  <h5 class="card-title">Details</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>              
+                </div>
+                <div class="tab-pane fade p-3" id="costthree" role="tabpanel" aria-labelledby="costthree-tab">
+                  <h5 class="card-title">Cost</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>              
+                </div>
+      
+              </div>
+            </div>
+          </div>
+       
+     </div>          <!-- wraps around all events so that there's one row. -->
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
+
+      
+
+
+      
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      
+
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

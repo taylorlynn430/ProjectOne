@@ -1,0 +1,141 @@
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+
+  /* THE Jumbotron
+  -------------------------------------------------- */
+  .jumbotron {
+    color: white;
+    background-image: url(/Img/mercedes-mehling-7J7x8HLXQKA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .jumbotron-special {
+    height: 300px;
+    text-align: center;
+  }
+
+
+
+
+  
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+  
+  
+  
+  /* Featurettes
+  ------------------------- */
+
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+   /* Contact Form
+  ------------------------- */
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  }
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+
+}
+
+.card{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+   /* Blockquote
+  -------------------------------------------------- */
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+  }
+
+
+
+
+ /* Accordion
+  -------------------------------------------------- */
+  body {
+    background: #F9F9F9;
+  }
+  
+  .myaccordion {
+    max-width: 700px;
+    margin: 50px auto;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  }
+  
+  .myaccordion .card,
+  .myaccordion .card:last-child .card-header {
+    border: none;
+  }
+  
+  .myaccordion .card-header {
+    border-bottom-color: #EDEFF0;
+    background: transparent;
+  }
+  
+  .myaccordion .fa-stack {
+    font-size: 18px;
+  }
+  
+  .myaccordion .btn {
+    width: 100%;
+    font-weight: bold;
+    color: #004987;
+    padding: 0;
+  }
+  
+  .myaccordion .btn-link:hover,
+  .myaccordion .btn-link:focus {
+    text-decoration: none;
+  }
+  
+  .myaccordion li + li {
+    margin-top: 10px;
+  }
+
