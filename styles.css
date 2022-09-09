@@ -1,15 +1,23 @@
 
 
 body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    color: #283747;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
   }
 
   /* THE Jumbotron
+  vh sizes the image in respect to the viewport height
   -------------------------------------------------- */
   .jumbotron {
-    color: white;
+    color: #24408E;
     background-image: url(/Img/mercedes-mehling-7J7x8HLXQKA-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -19,49 +27,40 @@ body {
   .jumbotron-special {
     height: 300px;
     text-align: center;
+    color: white;
   }
 
 
 
-
-  
-/* MARKETING CONTENT
+/* heart columns
 -------------------------------------------------- */
 
-.marketing .col-lg-4 {
+.hearts .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
+
+.hearts .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
 
-  
-  
-  
+
   /* Featurettes
   ------------------------- */
 
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  .blog-divider {
+    margin: 5rem 0;
   }
-  
-  /* Thin out the marketing headings */
-  .featurette-heading {
-    font-weight: 300;
+
+  .blog-heading {
     line-height: 1;
     letter-spacing: -.05rem;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
 
-   /* Contact Form
+
+/* Contact Form
   ------------------------- */
 
 label {
@@ -86,13 +85,50 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
-   /* Blockquote
+  /* Blockquote
   -------------------------------------------------- */
   .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
   }
+
+  /* nav bar */
+  .enfieldpride
+  {
+    color: red;
+    font-weight: bold;
+  }
+  .getinvolved
+{
+  color: orange;
+  font-weight: bold;
+}
+.events
+{
+  color: yellowgreen;
+  font-weight: bold;
+}
+.about
+{
+  color: blue;
+  font-weight: bold;
+}
+.aboutus
+{
+  color: blueviolet;
+  font-weight: bold;
+}
+.blog
+{
+  color: purple;
+  font-weight: bold;
+}
+.contact
+{
+  color: red;
+  font-weight: bold;
+}
 
 
 
@@ -139,3 +175,7 @@ margin-right: 10px;
     margin-top: 10px;
   }
 
+
+
+
+  
